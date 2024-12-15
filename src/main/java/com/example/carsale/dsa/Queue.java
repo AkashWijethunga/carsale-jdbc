@@ -5,7 +5,6 @@ public class Queue {
 
     public void push(int data){
         Node node = new Node(data);
-
         if(top == null){
             top = node;
         }else {
@@ -24,5 +23,6 @@ public class Queue {
             System.out.println(temp.data);
             temp = temp.next;
         }
+
     }
 }
